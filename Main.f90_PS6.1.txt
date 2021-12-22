@@ -52,7 +52,7 @@ deallocate(m,n)
 
 u=50
 open(unit=u, file='MN.dat', status='replace')
-write(u,'(5f9.2)' r
+write(u,'(5f9.2)') r
 close(u)
 
 end program Main
